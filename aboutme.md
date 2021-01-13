@@ -17,5 +17,5 @@ I am open to find an opportunity in industry or academic relate to these fields.
 - History
 
 ## Contact
-- Email: dolong2110@gmail.com/dolong2110@unist.ac.kr
+- Email: dolong2110@gmail.com/ dolong2110@unist.ac.kr
 - Instagram: chaulong98
