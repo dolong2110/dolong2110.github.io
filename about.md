@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-This is an about page about this awesome site.
+My name is Chau Long Do. 
 Hope you love it!
 
 Reasons:
