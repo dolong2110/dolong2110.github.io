@@ -1,4 +1,10 @@
-theme:            jekyll-theme-architect
+# Site settings
 title:            Welcome to the Long's homepage!
+author:
+        name:     Chau Long Do
+        email:    dolong2110@gmail.com
 description:      It's my shelter where I update my profile and projects. I also share my knowlege and experience here. Your visit is one of my passion
 url:              https://dolong2110.github.io/
+
+# Build settings
+theme:            jekyll-theme-architect
