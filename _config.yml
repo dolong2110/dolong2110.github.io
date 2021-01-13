@@ -1,19 +1,45 @@
 # Site settings
 title:            Welcome to the Long's Homepage!
 author:
-        name:     Chau Long Do
-        email:    dolong2110@gmail.com
-twitter_username: Chau Long Do
-github_username:  dolong2110
-instagram:        chaulong98    
+        name:             Chau Long Do
+        email:            dolong2110@gmail.com
+        github:           dolong2110
+        twitter:          Chau Long Do
+        instagram:        chaulong98
+        stackoverflow:    Long Do
+        linkedin:         https://www.linkedin.com/in/chaulong2110/
+        
+
+# --- Misc --- #
+# Fill in the Disqus shortname to support Disqus comments
+disqus: "dolong2110"
+
+# Fill in Google Analytics ID to track your website using GA
+google_analytics: "UA-96660715-1"
+       
 description:      "It's my shelter where I update my profile and projects. I also share my knowlege and experience here. Your visit is one of my passion"
-# url is the full website URL
-url:              https://dolong2110.github.io/
+# display the link to your website in the footer
+url-pretty:              https://dolong2110.github.io/
+
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+# excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
 
 # Build settings
+timezone:         "Asia/Ho_Chi_Minh"
 markdown:         kramdown
-theme:            jekyll-theme-architect
+# theme:            jekyll-theme-architect
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
 
+kramdown:
+  input: GFM
 
 # List of links in the navigation bar
 navbar-links:
@@ -23,3 +49,120 @@ navbar-links:
   Open Learning: "openlearning"
   Blog: "blog"
   CV: "cv"
+  
+# Image to show in the navigation bar - works best with a square image
+avatar: "/assets/img/avatar-icon.png"
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
+
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+#title-img: /path/to/image
+
+# --- Footer social media links --- #
+social-network-links:
+  email: "dolong2110@gmail.com"
+#   facebook: abc
+  github: dolon2110
+  twitter: Chau Long Do
+#   patreon: DeanAttali
+  youtube: long đỗ
+#  reddit: yourname
+ linkedin: https://www.linkedin.com/in/chaulong2110/
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+ instagram: chaulong98
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
+
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: false
+  google: true
+  linkedin: true
+  instagram: false
+  
+# Select which links to show in the footer
+footer-links-active:
+  facebook: false
+  email: true
+  twitter: true
+  github: true
+  linkedin: true
+  instagram: true
+  stackoverflow: false 
+  
+  
+# --- Colours / background image --- #
+
+# Personalize the colours in website. Colour values can be any valid CSS colour
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to an image
+# instead of colour
+
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
+
+# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+#mobile-theme-col: "#0085A1"
+
+# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
+#disqus: ""
+
+# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
+#fb_comment_id: ""
+
+
+# Ruby Date Format to show dates of posts
+date_format: "%B %-d, %Y"
+
+# Facebook App ID
+#fb_app_id: ""
+
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+# Exclude these files from production site
+exclude:
+        - LICENSE
+        - README.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
