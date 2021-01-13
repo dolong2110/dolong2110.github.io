@@ -13,3 +13,13 @@ url:              https://dolong2110.github.io/
 # Build settings
 markdown:         kramdown
 theme:            jekyll-theme-architect
+
+
+# List of links in the navigation bar
+navbar-links:
+  About Long: "aboutme"
+  Education: "education"
+  Projects and Skills: "projects skils"
+  Open Learning: "openlearning"
+  Blog: "blog"
+  CV: "cv"
