@@ -10,4 +10,5 @@ description:      "It's my shelter where I update my profile and projects. I als
 url:              https://dolong2110.github.io/
 
 # Build settings
+markdown:         kramdown
 theme:            jekyll-theme-architect
